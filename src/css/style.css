@@ -511,4 +511,130 @@ body {
 .overlay .popup .thanks__subtitle {
   font-size: 14px;
 }
+
+@media (max-width: 360px) {
+  .header-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-info__img {
+    width: 100%;
+  }
+  .header-info__company {
+    margin-top: 10px;
+  }
+  .header-info__subtitle {
+    font-size: 10px;
+  }
+  .header-info__tel {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .header-info__callBackBtn {
+    width: 130px;
+    height: 20px;
+    font-size: 8px;
+  }
+
+  .home {
+    padding: 150px 0 50px;
+  }
+  .home__title {
+    font-size: 30px;
+  }
+  .home__subtitle {
+    font-size: 16px;
+  }
+  .home__btn {
+    width: 200px;
+    height: 30px;
+    font-size: 8px;
+  }
+
+  .advantages {
+    padding: 50px 0 50px;
+  }
+  .advantages__title {
+    font-size: 20px;
+  }
+
+  .consultation {
+    padding: 50px 0 50px;
+  }
+  .consultation__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .consultation__subtitle {
+    font-size: 16px;
+  }
+  .consultation__btn {
+    font-size: 10px;
+  }
+
+  .owlNextBtn {
+    display: none;
+  }
+
+  .owlPrevBtn {
+    display: none;
+  }
+
+  .catalog {
+    padding: 0;
+  }
+  .catalog__title {
+    font-size: 20px;
+  }
+  .catalog-tabs__tab {
+    font-size: 10px;
+  }
+
+  .overlay .popup {
+    max-width: 200px;
+    max-height: 300px;
+    width: 100%;
+  }
+  .overlay .popup__close {
+    right: -30px;
+  }
+  .overlay .popup .form-consult {
+    padding: 20px;
+  }
+  .overlay .popup .form-consult__title {
+    font-size: 14px;
+  }
+  .overlay .popup .form-consult__subtitle {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .overlay .popup .form-consult__name {
+    width: 160px;
+    height: 30px;
+    margin: 5px auto 5px;
+    padding: 5px 10px 5px;
+  }
+  .overlay .popup .form-consult__name::placeholder {
+    font-size: 8px;
+  }
+  .overlay .popup .form-consult__btn {
+    margin-top: 10px;
+    width: 160px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .overlay .popup .thanks__title {
+    font-size: 14px;
+  }
+  .overlay .popup .thanks__subtitle {
+    font-size: 10px;
+  }
+
+  .scroll-up {
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
