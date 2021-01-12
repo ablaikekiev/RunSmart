@@ -1,0 +1,9 @@
+@media (max-width: 360px) {
+  .header-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-info__img {
+    width: 100%;
+  }
+}
